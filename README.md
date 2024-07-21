@@ -1,1 +1,1 @@
-# React-Coding-snippet
+# React-Coding-snipper
