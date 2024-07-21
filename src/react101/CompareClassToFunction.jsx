@@ -4,14 +4,17 @@ import React, { Component } from 'react'
   constructor(props){
     super(props);
     this.state = {
-      name: "",
+      name: "John",
       age: 100,
-      ismale: true
+      isMale: true
     }
   }
   render() {
     return (
       <div>
+      <h1>My name is {this.state.name} </h1>
+      <h2>I am {this.state.age} years old</h2>
+      <h3>I am a {this.state.isMale ? "Male" : "Female"} </h3>
         <h1>Hello World from class</h1>
       </div>
     )
