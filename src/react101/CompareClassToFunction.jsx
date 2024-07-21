@@ -10,6 +10,17 @@ import React, { Component } from 'react'
     }
   }
   render() {
+    // using modern destructuring syntax
+    const { name, age, isMale } = this.state;
+
+    return (
+      <div>
+        <h1>My name is {name} </h1>
+        <h2>I am {age} years old</h2>
+        <h3>I am a {isMale? "Male" : "Female"} </h3>
+        <h1>Hello World from class</h1>
+      </div>
+    )
     return (
       <div>
       <h1>My name is {this.state.name} </h1>
