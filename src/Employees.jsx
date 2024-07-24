@@ -33,6 +33,11 @@ function Emplooyes() {
             style={{
               border: '1px solid black',
               padding: '10px'
+              }}>Get All Male</th>
+            <th
+            style={{
+              border: '1px solid black',
+              padding: '10px'
               }}>All Web Developer</th>
           </tr>
         </thead>
