@@ -39,6 +39,11 @@ function Emplooyes() {
               border: '1px solid black',
               padding: '10px'
               }}>All Web Developer</th>
+            <th
+            style={{
+              border: '1px solid black',
+              padding: '10px'
+              }}>All Database Eng</th>
           </tr>
         </thead>
         <tbody>
