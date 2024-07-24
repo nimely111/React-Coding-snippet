@@ -1,13 +1,13 @@
-import React from 'react'
-import { useState } from 'react'
+import React from 'react';
+import { useState } from 'react';
 
 
 
 
 function CompareFunctionToClass({ emotion, year, ...props }) {
-  const [name, setName] = useState("John")
-  const [age, setAge] = useState(100)
-  const [isMale, setIsMale] = useState(true)
+  const [name, setName] = useState("John");;
+  const [age, setAge] = useState(100);
+  const [isMale, setIsMale] = useState(true);
 
   return (
     <div>
