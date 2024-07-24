@@ -15,7 +15,6 @@ function CompareFunctionToClass({ emotion, year, ...props }) {
       <h2>I am {age} years old</h2>
       <h3>I am {isMale ? "Male" : "Female"} </h3>
       <h4>I am felling {emotion}</h4>
-
     </div>
   )
 }
