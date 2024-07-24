@@ -112,7 +112,9 @@ function Emplooyes() {
     return data.position === 'Database Eng' && <li
     key={key}
     style={{
-      
+      border: '1px solid black',
+      padding: '17px',
+      listStyle: 'none'
     }}>
       {data.name}
     </li>
