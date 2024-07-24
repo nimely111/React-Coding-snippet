@@ -107,6 +107,11 @@ function Emplooyes() {
                 </li>
 })}
 </td>
+<td>
+  {employeesData.map((data, key) => {
+    
+  })}
+</td>
           </tr>
         </tbody>
       </table>
