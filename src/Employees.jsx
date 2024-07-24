@@ -79,7 +79,9 @@ function Emplooyes() {
     return data.gender === 'Male' && <li
     key={key}
     style={{
-      
+      border: '1px solid black',
+      padding: '10px',
+      listStyle: 'none'
     }}>
       {data.name}
     </li>
