@@ -77,7 +77,10 @@ function Emplooyes() {
 <td>
   {employeesData.map((data, key) => {
     return data.gender === 'Male' && <li
-    key={key}>
+    key={key}
+    style={{
+      
+    }}>
       {data.name}
     </li>
   })}
