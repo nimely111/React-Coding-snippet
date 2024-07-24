@@ -22,14 +22,6 @@ import React, { Component } from 'react'
         <h4>I am felling {emotion}</h4>
       </div>
     )
-    return (
-      <div>
-      <h1>My name is {this.state.name} </h1>
-      <h2>I am {this.state.age} years old</h2>
-      <h3>I am a {this.state.isMale ? "Male" : "Female"} </h3>
-        <h1>Hello World from class</h1>
-      </div>
-    )
   }
 }
 
