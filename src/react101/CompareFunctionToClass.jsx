@@ -5,9 +5,9 @@ import { useState } from 'react';
 
 
 function CompareFunctionToClass({ emotion, year, ...props }) {
-  const [name, setName] = useState("John");
+  const [name, setName] = useState("Esther");
   const [age, setAge] = useState(100);
-  const [isMale, setIsMale] = useState(true);
+  const [isMale, setIsMale] = useState(false);
 
   return (
     <div>
