@@ -95,7 +95,7 @@ function Emplooyes() {
                 key={key}
                 style={{
                   border: '1px solid black',
-                  padding: '10px',
+                  padding: '17px',
                   listStyle: 'none'
                   }}>
                   {data.name}
