@@ -28,12 +28,12 @@ function Emplooyes() {
             style={{
               border: '1px solid black',
               padding: '10px'
-              }}>Get All Female</th>
+              }}>All Female</th>
             <th
             style={{
               border: '1px solid black',
               padding: '10px'
-              }}>Get All Male</th>
+              }}>All Male</th>
             <th
             style={{
               border: '1px solid black',
