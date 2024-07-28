@@ -10,6 +10,7 @@ import Planets from './Pedro_Exercise/Planets';
 import Emplooyes from './Employees';
 import CompareClassToFunction from './react101/CompareClassToFunction';
 import CompareFunctionToClass from './react101/CompareFunctionToClass';
+import Greetings from '../Components/Classes/Greetings';
 
 function App() {
   const isMale = true;
@@ -57,6 +58,7 @@ function App() {
         <Emplooyes />
         <CompareClassToFunction />
         <CompareFunctionToClass />
+        <Greetings />
       </div>
       
 
