@@ -14,7 +14,7 @@ class Class_Counter extends Component{
     render(){
         return(
             <>
-                <button onClick={handleAgeChange}>
+                <button onClick={this.handleAgeChange}>
                     Increase Age
                 </button>
             </>
