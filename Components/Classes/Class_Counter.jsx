@@ -6,7 +6,9 @@ class Class_Counter extends Component{
     }
 
     handleAgeChange = () => {
-        
+        this.setState({
+            age: this.state.age + 1
+        })
     }
     
     render(){
