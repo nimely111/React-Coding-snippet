@@ -11,6 +11,7 @@ import Emplooyes from './Employees';
 import CompareClassToFunction from './react101/CompareClassToFunction';
 import CompareFunctionToClass from './react101/CompareFunctionToClass';
 import Greetings from '../Components/Classes/Greetings';
+import Class_Counter from '../Components/Classes/Class_Counter';
 
 function App() {
   const isMale = true;
@@ -59,6 +60,7 @@ function App() {
         <CompareClassToFunction />
         <CompareFunctionToClass />
         <Greetings first_name="Taylor" last_name="Jones"/>
+        <Class_Counter />
       </div>
       
 
