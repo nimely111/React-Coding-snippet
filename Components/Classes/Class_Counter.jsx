@@ -17,6 +17,7 @@ class Class_Counter extends Component{
                 <button onClick={this.handleAgeChange}>
                     Increase Age
                 </button>
+                <p>You are {this.state.age} years old</p>
             </>
         )
     }
