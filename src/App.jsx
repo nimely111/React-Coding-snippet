@@ -58,7 +58,7 @@ function App() {
         <Emplooyes />
         <CompareClassToFunction />
         <CompareFunctionToClass />
-        <Greetings />
+        <Greetings name="Taylor" />
       </div>
       
 
