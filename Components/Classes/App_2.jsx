@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
-class App_2 extends Component{
-
+function App_2(){
+    
 }
 
 export default App_2;
