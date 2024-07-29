@@ -1,4 +1,4 @@
-
+import Class_Counter from "./Class_Counter";
 function App_2(){
     return(
         <>
