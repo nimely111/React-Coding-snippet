@@ -5,6 +5,7 @@ function App_2(){
         <>
             <h1>Hello World</h1>
             <Class_Counter />
+            <Constructor_Props />
         </>
     )
 }
