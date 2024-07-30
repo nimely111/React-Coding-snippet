@@ -7,6 +7,10 @@ class Constructor_Props extends Components{
     }
     
     handleClick(){
-        
+
     }
+
+    
 }
+
+export default Constructor_Props;
