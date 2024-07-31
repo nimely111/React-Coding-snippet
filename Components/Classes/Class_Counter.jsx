@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Class_Counter extends Component{
      state = {
-        age: 42,
+        age: 0,
     }
 
     handleAgeChange = () => {
