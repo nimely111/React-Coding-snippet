@@ -9,6 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <App_2 />
+    {/* <App_2 /> */}
+    <App_101 />
   </React.StrictMode>,
 )

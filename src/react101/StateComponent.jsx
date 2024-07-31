@@ -8,7 +8,9 @@ function StateComponent(){
     return(
         <>
             <h1>Welcome to my Counter App</h1>
+            <button>-</button>
             <p>The count is { count }</p>
+            <button onClick={increaseCount}>+</button>
         </>
     )
 }
