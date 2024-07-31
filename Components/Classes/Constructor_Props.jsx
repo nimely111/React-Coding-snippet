@@ -14,3 +14,12 @@ class Constructor_Props extends Components{
 }
 
 export default Constructor_Props;
+
+// modifying the above code snipper
+class Counter extends Component {
+    state = { counter: 0 };
+  
+    handleClick = () => {
+      // ...
+    }
+}
