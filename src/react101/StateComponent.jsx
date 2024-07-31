@@ -2,8 +2,6 @@ import React, {useState} from 'react'
 
 function StateComponent(){
     const [count, setCount] = useState(0);
-    const isPositive = false
-
     // increase Count
     const increaseCount = () => {
         setCount(count + 1)
@@ -23,7 +21,10 @@ function StateComponent(){
                 background: 'blue',
                 color: '#fff',
                 fontSize: '20px'
-            }} onClick={decreaseCount}>-</button>
+            }} 
+                onClick={
+                decreaseCount
+                }>-</button>
 
             <button style={{
                 marginRight: '5px',
@@ -32,9 +33,11 @@ function StateComponent(){
                 color: '#fff',
                 fontSize: '20px'
             }}
-             onClick={increaseCount}>+</button>
+                onClick={
+                increaseCount
+                }>+</button>
              
-            <h2>The count is { count }</h2>
+            {count >= 0 ? <h2 style={{color: 'green'}}>The count is: { count }</h2> :  <h2 style={{color: 'red'}}>The count is: { count }</h2>}
         </>
     )
 }
