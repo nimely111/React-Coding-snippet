@@ -1,9 +1,9 @@
-import App_101 from '../react101/StateComponent'
+import StateComponent from "./StateComponent";
 
 function App_101(){
     return(
         <>
-            <App_101 />
+            <StateComponent />
         </>
     )
 }
