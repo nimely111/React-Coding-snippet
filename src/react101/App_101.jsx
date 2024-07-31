@@ -7,3 +7,5 @@ function App_101(){
         </>
     )
 }
+
+export default App_101;
