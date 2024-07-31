@@ -1,5 +1,5 @@
 import { Component } from 'react'
-class Constructor_Props extends Components{
+class Constructor_Props extends Component{
     constructor(props){
         super(props);
         this.state = {counter: 0};
