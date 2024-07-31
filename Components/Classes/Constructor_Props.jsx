@@ -6,9 +6,9 @@ class Constructor_Props extends Components{
         this.handleClick.bind(this)
     }
     
-    handleClick(){
+    // handleClick(){
 
-    }
+    // }
 
     
 }
