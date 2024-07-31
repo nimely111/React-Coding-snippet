@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 function StateComponent(){
     const [count, setCount] = useState(0);
-    increaseCount = () => {
+    const increaseCount = () => {
         setCount(count + 1)
     }
     return(
