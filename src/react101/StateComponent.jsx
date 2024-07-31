@@ -34,7 +34,7 @@ function StateComponent(){
             }}
              onClick={increaseCount}>+</button>
              
-            <p>The count is { count }</p>
+            <h2>The count is { count }</h2>
         </>
     )
 }
