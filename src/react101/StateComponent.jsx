@@ -1,11 +1,11 @@
 import React from 'react'
 
-function StateComponent() {
-  return (
-    <div>
-      
-    </div>
-  )
+function StateComponent(){
+    return(
+        <>
+            
+        </>
+    )
 }
 
-export default StateComponent
+export default StateComponent;
