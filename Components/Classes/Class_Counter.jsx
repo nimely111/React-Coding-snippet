@@ -14,6 +14,7 @@ class Class_Counter extends Component{
     render(){
         return(
             <>
+            <h1>Class Based Counter</h1>
                 <button onClick={this.handleAgeChange}>
                     Increase Age
                 </button>
