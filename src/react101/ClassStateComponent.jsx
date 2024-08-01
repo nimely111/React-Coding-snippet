@@ -39,7 +39,7 @@ class ClassStateComponent extends Component{
                 fontSize: '20px'
             }} 
                 onClick={
-                decreaseCount
+                this.decreaseCount
                 }>-</button>
 
             <button style={{
@@ -50,7 +50,7 @@ class ClassStateComponent extends Component{
                 fontSize: '20px'
             }}
                 onClick={
-                increaseCount
+                this.increaseCount
                 }>+</button>
 
 <button style={{
@@ -61,20 +61,20 @@ class ClassStateComponent extends Component{
                 fontSize: '20px'
             }} 
                 onClick={
-                setToZero
+                this.setToZero
                 }>Reset</button>
              
-            {count >= 0 ? <h2 
+            {this.count >= 0 ? <h2 
             style={{
                 color: 'green'
                 }}>
-                The count is: { count }
+                The count is: { this.count }
                     </h2> :  
                     <h2 
             style={{
                 color: 'red'
                 }}>
-                The count is: { count }
+                The count is: { this.count }
                 </h2>}
 
             </>
