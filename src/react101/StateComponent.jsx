@@ -13,12 +13,14 @@ function StateComponent(){
         setCount(count - 1)
     }
     
+    // reset Count
     const setToZero = () => {
         setCount(0)
     }
     return(
         <>
             <h1>Welcome to my Counter App</h1>
+            <h2>Using Function Based Component</h2>
             <button style={{
                 marginRight: '5px',
                 padding: '7px 20px',
