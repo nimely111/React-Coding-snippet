@@ -9,3 +9,5 @@ class ClassStateComponent extends Component{
         }
     }
 }
+
+export default ClassStateComponent
