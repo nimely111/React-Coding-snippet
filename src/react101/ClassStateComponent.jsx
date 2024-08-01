@@ -9,6 +9,21 @@ class ClassStateComponent extends Component{
         }
     }
 
+    // increase Count
+     increaseCount = () => {
+        this.setState({count: this.state.count + 1})
+    }
+    
+    // decrease Count
+     decreaseCount = () => {
+        this.setState({count: this.state.count - 1})
+    }
+    
+    // reset Count
+     setToZero = () => {
+        setCount(0)
+    }
+
 
     render(){
         return(
