@@ -28,7 +28,6 @@ class ClassStateComponent extends Component{
     render(){
         return(
             <>
-                  <h1>Welcome to my Counter App</h1>
                   <h2>Using Class Based Component</h2>
 
                   <button style={{
