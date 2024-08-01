@@ -64,7 +64,7 @@ class ClassStateComponent extends Component{
                 this.setToZero
                 }>Reset</button>
              
-            {this.count >= 0 ? <h2 
+            {this.state.count >= 0 ? <h2 
             style={{
                 color: 'green'
                 }}>
