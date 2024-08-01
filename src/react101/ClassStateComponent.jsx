@@ -21,7 +21,7 @@ class ClassStateComponent extends Component{
     
     // reset Count
      setToZero = () => {
-        setCount(0)
+        this.setState(0)
     }
 
 
