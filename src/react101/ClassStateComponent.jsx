@@ -15,6 +15,53 @@ class ClassStateComponent extends Component{
             <>
                   <h1>Welcome to my Counter App</h1>
                   <h2>Using Class Based Component</h2>
+
+                  <button style={{
+                marginRight: '5px',
+                padding: '7px 20px',
+                background: 'blue',
+                color: '#fff',
+                fontSize: '20px'
+            }} 
+                onClick={
+                decreaseCount
+                }>-</button>
+
+            <button style={{
+                marginRight: '5px',
+                padding: '7px 20px',
+                background: 'blue',
+                color: '#fff',
+                fontSize: '20px'
+            }}
+                onClick={
+                increaseCount
+                }>+</button>
+
+<button style={{
+                marginRight: '5px',
+                padding: '7px 20px',
+                background: 'blue',
+                color: '#fff',
+                fontSize: '20px'
+            }} 
+                onClick={
+                setToZero
+                }>Reset</button>
+             
+            {count >= 0 ? <h2 
+            style={{
+                color: 'green'
+                }}>
+                The count is: { count }
+                    </h2> :  
+                    <h2 
+            style={{
+                color: 'red'
+                }}>
+                The count is: { count }
+                </h2>}
+
             </>
         )
     }
