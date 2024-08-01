@@ -21,7 +21,7 @@ class ClassStateComponent extends Component{
     
     // reset Count
      setToZero = () => {
-        this.setState(0)
+        this.setState({count: 0})
     }
 
 
@@ -68,13 +68,13 @@ class ClassStateComponent extends Component{
             style={{
                 color: 'green'
                 }}>
-                The count is: { this.count }
+                The count is: { this.state.count }
                     </h2> :  
                     <h2 
             style={{
                 color: 'red'
                 }}>
-                The count is: { this.count }
+                The count is: { this.state.count }
                 </h2>}
 
             </>
