@@ -2,7 +2,7 @@ import React from 'react'
 
  function Login() {
     const handleSubmit = (e) =>{
-        e.preventDeffault()
+        e.preventDefault()
         console.log(12345);
     }
 
