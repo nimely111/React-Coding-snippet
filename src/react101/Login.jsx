@@ -8,10 +8,10 @@ import React from 'react'
 
   return (
     <div>
-      <form action="">
+      <form onClick={handleSubmit}>
         <input type="email" placeholder='Enter Your Email'/>
         <input type="password" placeholder='Enter Your password'/>
-        <input type="submit" value='Submit' onClick={handleSubmit}/>
+        <input type="submit" value='Submit'/>
       </form>
     </div>
   )
