@@ -3,7 +3,7 @@ import React from 'react'
  function Login() {
     const handleSubmit = (e) =>{
         e.preventDefault()
-        console.log(12345);
+        console.log(`Logging in ${e.target.value}`);
     }
 
   return (
@@ -11,7 +11,7 @@ import React from 'react'
       <form onClick={handleSubmit}>
         <input type="email" placeholder='Enter Your Email'/>
         <input type="password" placeholder='Enter Your password'/>
-        <input type="submit" value='Submit'/>
+        <button>Submit</button>
       </form>
     </div>
   )
