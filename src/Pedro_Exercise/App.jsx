@@ -2,8 +2,8 @@ import React from 'react'
 import './todo.css'
 function App() {
   return (
-    <div>
-      
+    <div className='App'>
+      <div className="addTask"></div>
     </div>
   )
 }
