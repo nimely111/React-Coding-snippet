@@ -21,7 +21,10 @@ function TodoApp() {
       </div>
       <div className="list">
         {todoList.map((task, key) =>{
-          return <li key={key}>{task}</li>
+          return <div>
+                  <li key={key}>{task}</li>
+                  <button>X</button>
+                </div>
         })}
       </div>
     </div>
