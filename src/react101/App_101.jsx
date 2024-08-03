@@ -11,14 +11,19 @@ function App_101(){
           <Login /> */}
 
           <Product 
-          name='Amazon Echo' 
+          name='Google Home' 
           description='Your AI assistant' 
           price={59.99}/>
 
-          {/* product: name, description, price */}
-          {/* product: name, description, price */}
-          {/* product: name, description, price */}
-          {/* product: name, description, price */}
+          <Product 
+          name='iPhone 12 pro max' 
+          description='The best iphone' 
+          price={1200}/>
+
+          <Product 
+          name='Macbook Pro' 
+          description='Your Favorite Computer' 
+          price={2500}/>        
         </>
     )
 }
