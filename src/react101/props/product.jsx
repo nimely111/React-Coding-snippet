@@ -1,4 +1,5 @@
 import React from 'react'
+import ItemDescription from './ItemDescription'
 
 function product({name, description, price}) {
   return (
