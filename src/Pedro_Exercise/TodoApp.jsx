@@ -12,7 +12,7 @@ function TodoApp() {
   const addTask = () => {
     const newTodoList = [...todoList, newTask]
     setTodoList(newTodoList)
-    console.log(newTodoList);
+    // console.log(newTodoList);
   }
 
   return (
@@ -21,7 +21,11 @@ function TodoApp() {
         <input type="text" onChange={handlechange}/>
         <button onClick={addTask}>Add Task</button>
       </div>
-      <div className="list"></div>
+      <div className="list">
+        {todoList.map((task, key) =>{
+          return <li>{task}</li>
+        })}
+      </div>
     </div>
   )
 }
