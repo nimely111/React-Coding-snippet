@@ -13,6 +13,10 @@ function TodoApp() {
     setTodoList([...todoList, newTask])
   }
 
+  const deleteTask = () =>{
+
+  }
+
   return (
     <div className='App'>
       <div className="addTask">
@@ -23,7 +27,7 @@ function TodoApp() {
         {todoList.map((task, key) =>{
           return <div>
                   <li key={key}>{task}</li>
-                  <button>X</button>
+                  <button onClick={deleteTask}>X</button>
                 </div>
         })}
       </div>
