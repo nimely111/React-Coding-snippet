@@ -9,6 +9,11 @@ function App_101(){
           <ClassStateComponent />
           <Login />
 
+          <Product 
+          name='Amazon Echo' 
+          description='Your AI assistant' 
+          price={59.99}/>
+
           {/* product: name, description, price */}
           {/* product: name, description, price */}
           {/* product: name, description, price */}
