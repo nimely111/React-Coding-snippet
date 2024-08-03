@@ -1,6 +1,6 @@
 import React from 'react'
 import './todo.css'
-function App() {
+function TodoApp() {
   return (
     <div className='App'>
       <div className="addTask">
@@ -12,4 +12,4 @@ function App() {
   )
 }
 
-export default App
+export default TodoApp
