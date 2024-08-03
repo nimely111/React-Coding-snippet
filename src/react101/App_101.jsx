@@ -6,9 +6,9 @@ import product from "./props/product";
 function App_101(){
     return(
         <>
-          <StateComponent />
+          {/* <StateComponent />
           <ClassStateComponent />
-          <Login />
+          <Login /> */}
 
           <Product 
           name='Amazon Echo' 
