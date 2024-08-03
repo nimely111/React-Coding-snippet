@@ -10,8 +10,7 @@ function TodoApp() {
   }
 
   const addTask = () => {
-    const newTodoList = [...todoList, newTask]
-    setTodoList(newTodoList)
+    setTodoList([...todoList, newTask])
     // console.log(newTodoList);
   }
 
