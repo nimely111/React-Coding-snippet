@@ -1,7 +1,7 @@
 import StateComponent from "./StateComponent";
 import ClassStateComponent from "./ClassStateComponent";
 import Login from "./Login";
-import Product from "./props/product";
+import Product from "./props/Product";
 
 function App_101(){
     return(
