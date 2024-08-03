@@ -9,11 +9,15 @@ function TodoApp() {
     setNewTask(event.target.value)
   }
 
+  const addTask = () => {
+
+  }
+
   return (
     <div className='App'>
       <div className="addTask">
         <input type="text" onChange={handlechange}/>
-        <button>Add Task</button>
+        <button onClick={addTask}>Add Task</button>
       </div>
       <div className="list"></div>
     </div>
