@@ -8,6 +8,11 @@ function App_101(){
           <StateComponent />
           <ClassStateComponent />
           <Login />
+
+          {/* product: name, description, price */}
+          {/* product: name, description, price */}
+          {/* product: name, description, price */}
+          {/* product: name, description, price */}
         </>
     )
 }
