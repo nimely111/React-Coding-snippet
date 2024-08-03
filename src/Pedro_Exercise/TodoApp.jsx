@@ -15,9 +15,7 @@ function TodoApp() {
         <input type="text" onChange={handlechange}/>
         <button>Add Task</button>
       </div>
-      <div className="list">
-        {newTask}
-      </div>
+      <div className="list"></div>
     </div>
   )
 }
