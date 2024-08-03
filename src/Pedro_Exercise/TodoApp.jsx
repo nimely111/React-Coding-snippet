@@ -1,8 +1,10 @@
-import React from 'react'
-import { useState } from 'react'
-import './todo.css'
+import React from 'react';
+import { useState } from 'react';
+import './todo.css';
 function TodoApp() {
-  const [todoList, setTodoList] = useState([])
+  const [todoList, setTodoList] = useState([]);
+  const [newTask, setNewTask] = useState("");
+
   return (
     <div className='App'>
       <div className="addTask">
