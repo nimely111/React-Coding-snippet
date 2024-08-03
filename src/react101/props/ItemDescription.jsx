@@ -4,10 +4,10 @@ function ItemDescription({name, description}) {
   return (
     <div>
       <p>
-        <i>{name}</i>
+        <i>Name: {name}</i>
       </p>
       <p>
-      <i>{description}</i>
+      <i>Description: {description}</i>
       </p>
     </div>
   )
