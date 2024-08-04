@@ -11,7 +11,7 @@ function TodoApp() {
 
   const addTask = () => {
     const task = {
-      id: 1,
+      id: todoList[todoList.length - 1].id + 1,
       taskName: newTask
     }
     setTodoList([...todoList, task])
