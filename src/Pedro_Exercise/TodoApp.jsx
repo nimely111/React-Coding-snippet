@@ -33,7 +33,7 @@ function TodoApp() {
             <div className='task'>
                   <li>{task.taskName}</li>
                   <button onClick={() => deleteTask(task.id)}>X</button>
-                </div>
+            </div>
           )
         })}
       </div>
