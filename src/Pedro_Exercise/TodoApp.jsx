@@ -28,9 +28,9 @@ function TodoApp() {
         <button onClick={addTask}>Add Task</button>
       </div>
       <div className="list">
-        {todoList.map((task, key) =>{
+        {todoList.map(task =>{
           return <div>
-                  <li key={key}>{task.taskName}</li>
+                  <li>{task.taskName}</li>
                   <button onClick={() => deleteTask(task)}>X</button>
                 </div>
         })}
