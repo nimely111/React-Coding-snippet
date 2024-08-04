@@ -11,7 +11,7 @@ function TodoApp() {
 
   const addTask = () => {
     const task = {
-      id: todoList === 0 ? 1 : todoList[todoList.length - 1].id + 1,
+      id: todoList.length === 0 ? 1 : todoList[todoList.length - 1].id + 1,
       taskName: newTask,
     }
     setTodoList([...todoList, task])
@@ -31,7 +31,7 @@ function TodoApp() {
         {todoList.map(task =>{
           return <div>
                   <li>{task.taskName}</li>
-                  <button onClick={() => deleteTask(task)}>X</button>
+                  <button onClick={() => deleteTask(task.id)}>X</button>
                 </div>
         })}
       </div>
