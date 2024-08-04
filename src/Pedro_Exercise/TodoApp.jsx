@@ -26,7 +26,7 @@ function TodoApp() {
   const taskCompleted = (id) => {
     setTodoList(todoList.map(task => {
       if(task.id === id){
-        return {...task, isCompleted: true}
+        return {...task, isCompleted: true};
       }else{
         return task
       }
@@ -41,7 +41,7 @@ function TodoApp() {
       </div>
       <div className="list">
         {todoList.map(task =>{
-          return <Task taskName={task.taskName} id={task.id} deleteTask={deleteTask} taskCompleted={taskCompleted}/>
+          return <Task taskName={task.taskName} id={task.id} deleteTask={deleteTask} taskCompleted={taskCompleted} isCompleted={task.isCompleted}/>
         })}
       </div>
     </div>
