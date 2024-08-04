@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Task(props) {
+function Task({taskName, id}) {
   return (
        <div className='task'>
-            <li>{props.taskName}</li>
-            <button onClick={() => deleteTask(props.id)}>X</button>
+            <li>{taskName}</li>
+            <button onClick={() => deleteTask(id)}>X</button>
         </div>
   )
 }
