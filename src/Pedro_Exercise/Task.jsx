@@ -4,6 +4,7 @@ function Task({taskName, id, deleteTask}) {
   return (
        <div className='task'>
             <li>{taskName}</li>
+            <button>Complete</button>
             <button onClick={() => deleteTask(id)}>X</button>
         </div>
   )
