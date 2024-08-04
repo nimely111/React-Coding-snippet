@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Task({taskName, id}) {
+function Task({taskName, id, deleteTask}) {
   return (
        <div className='task'>
             <li>{taskName}</li>
