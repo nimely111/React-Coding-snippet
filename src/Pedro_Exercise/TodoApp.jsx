@@ -24,8 +24,13 @@ function TodoApp() {
   }
 
   const taskCompleted = (id) => {
-    todoList.map(task => task)
-    setTodoList()
+    setTodoList(todoList.map(task => {
+      if(task.id === id){
+        return {...task, isCompleted: true}
+      }else{
+        return task
+      }
+    }))
   }
 
   return (
