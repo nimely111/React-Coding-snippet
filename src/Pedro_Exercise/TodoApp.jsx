@@ -10,7 +10,11 @@ function TodoApp() {
   }
 
   const addTask = () => {
-    setTodoList([...todoList, newTask])
+    const task = {
+      id: 1,
+      taskName: newTask
+    }
+    setTodoList([...todoList, task])
   }
 
   const deleteTask = (taskName) =>{
