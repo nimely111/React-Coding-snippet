@@ -23,8 +23,9 @@ function TodoApp() {
     setTodoList(todoList.filter(task => task.id !== id))
   }
 
-  const taskCompleted = () => {
+  const taskCompleted = (id) => {
     
+    setTodoList()
   }
 
   return (
