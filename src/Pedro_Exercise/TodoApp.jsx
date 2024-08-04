@@ -12,13 +12,13 @@ function TodoApp() {
   const addTask = () => {
     const task = {
       id: todoList === 0 ? 1 : todoList[todoList.length - 1].id + 1,
-      taskName: newTask
+      taskName: newTask,
     }
     setTodoList([...todoList, task])
   }
 
-  const deleteTask = (taskName) =>{
-    setTodoList(todoList.filter(task => task !== taskName))
+  const deleteTask = (id) =>{
+    setTodoList(todoList.filter(task => task.id !== id))
   }
 
   return (
