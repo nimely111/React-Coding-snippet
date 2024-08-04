@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Task({taskName, id, deleteTask, taskCompleted}) {
+function Task({taskName, id, deleteTask, taskCompleted, isCompleted}) {
   return (
        <div className='task' 
        style={{backgroundColor: isCompleted ? 'green' : 'white'}}
