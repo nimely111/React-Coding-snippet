@@ -31,7 +31,7 @@ function TodoApp() {
       <div className="list">
         {todoList.map(task =>{
           return (
-           <Task />
+           <Task task="tasks" />
           )
         })}
       </div>
