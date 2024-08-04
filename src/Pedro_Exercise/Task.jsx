@@ -3,7 +3,7 @@ import React from 'react'
 function Task({taskName, id, deleteTask, taskCompleted}) {
   return (
        <div className='task' 
-       style={{backgroundColor: taskCompleted ? 'green' : 'white'}}
+       style={{backgroundColor: isCompleted ? 'green' : 'white'}}
        >
             <li>
                 {taskName}
