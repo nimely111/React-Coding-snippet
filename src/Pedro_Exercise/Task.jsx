@@ -2,10 +2,12 @@ import React from 'react'
 
 function Task({taskName, id, deleteTask, taskCompleted}) {
   return (
-       <div className='task'>
+       <div className='task' 
+       style={{backgroundColor: taskCompleted ? 'green' : 'white'}}
+       >
             <li>
                 {taskName}
-                <button onClick={() => taskCompleted}>Complete</button>
+                <button onClick={() => taskCompleted(id)}>Complete</button>
                 <button onClick={() => deleteTask(id)}>X</button>
             </li>
         </div>
