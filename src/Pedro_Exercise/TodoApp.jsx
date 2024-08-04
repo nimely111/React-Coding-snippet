@@ -14,7 +14,14 @@ function TodoApp() {
   }
 
   const deleteTask = (taskName) =>{
-
+    const newTodoList = todoList.filter(task => {
+      if(task === taskName){
+        return false
+      }else{
+        return true
+      }
+    })
+    setTodoList(newTodoList)
   }
 
   return (
