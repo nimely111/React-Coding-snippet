@@ -30,7 +30,7 @@ function TodoApp() {
       <div className="list">
         {todoList.map((task, key) =>{
           return <div>
-                  <li key={key}>{task}</li>
+                  <li key={key}>{task.taskName}</li>
                   <button onClick={() => deleteTask(task)}>X</button>
                 </div>
         })}
