@@ -21,6 +21,7 @@
     list-style: none;
     padding: 10px;
     font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .task{
@@ -32,6 +33,12 @@
 .task button{
     padding: 5px 7px;
     margin: 0 5px 0 0;
+}
+
+.task button:nth-child(2){
+    background-color: red;
+    color: white;
+    font-weight: bolder;
 }
 
 .task button:hover{
