@@ -41,7 +41,12 @@ function TodoApp() {
       </div>
       <div className="list">
         {todoList.map(task =>{
-          return <Task taskName={task.taskName} id={task.id} deleteTask={deleteTask} taskCompleted={taskCompleted} isCompleted={task.isCompleted}/>
+          return <Task 
+          taskName={task.taskName} 
+          id={task.id} 
+          deleteTask={deleteTask} 
+          taskCompleted={taskCompleted} 
+          isCompleted={task.isCompleted}/>
         })}
       </div>
     </div>
