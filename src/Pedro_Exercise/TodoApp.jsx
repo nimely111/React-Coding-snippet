@@ -41,13 +41,13 @@ const  TodoApp = () => {
         <button onClick={addTask}>Add Task</button>
       </div>
       <div className="list">
-        {todoList.map(task =>{
+        {todoList.map(({taskName, id, isCompleted}) =>{
           return <Task 
-          taskName={task.taskName} 
-          id={task.id} 
+          taskName={taskName} 
+          id={id} 
           deleteTask={deleteTask} 
           taskCompleted={taskCompleted} 
-          isCompleted={task.isCompleted}/>
+          isCompleted={isCompleted}/>
         })}
       </div>
     </div>
