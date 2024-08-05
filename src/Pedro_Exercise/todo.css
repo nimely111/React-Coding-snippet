@@ -41,6 +41,12 @@
     font-weight: bolder;
 }
 
+.task button:nth-child(1){
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+}
+
 .task button:hover{
     cursor: pointer;
 }
