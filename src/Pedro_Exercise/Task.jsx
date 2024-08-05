@@ -1,7 +1,7 @@
 import React from 'react'
 import './todo.css'
 
-function Task({taskName, id, deleteTask, taskCompleted, isCompleted}) {
+const Task = ({taskName, id, deleteTask, taskCompleted, isCompleted}) =>  {
   return (
        <div className='task' 
        style={{backgroundColor: isCompleted ? 'green' : 'white', color: isCompleted && 'white'}}
