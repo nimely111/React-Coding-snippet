@@ -1,4 +1,5 @@
 import React from 'react'
+import './todo.css'
 
 function Task({taskName, id, deleteTask, taskCompleted, isCompleted}) {
   return (
