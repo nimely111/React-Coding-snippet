@@ -19,10 +19,16 @@
 .list li{
     list-style: none;
     padding: 10px;
+    font-size: 1.5em;
 }
 
 .task{
     margin: auto;
     width: 50%;
     margin-top: 10px;
+}
+
+.task button{
+    padding: 5px 7px;
+    margin: 0 5px 0 0;
 }
