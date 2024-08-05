@@ -4,7 +4,7 @@ import './todo.css'
 function Task({taskName, id, deleteTask, taskCompleted, isCompleted}) {
   return (
        <div className='task' 
-       style={{backgroundColor: isCompleted ? 'green' : 'white'}}
+       style={{backgroundColor: isCompleted ? 'green' : 'white', color: isCompleted && 'white'}}
        >
             <li>
                 {taskName}
