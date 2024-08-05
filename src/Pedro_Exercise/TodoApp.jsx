@@ -2,7 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import './todo.css';
 import Task from './Task';
-function TodoApp() {
+
+const  TodoApp = () => {
   const [todoList, setTodoList] = useState([]);
   const [newTask, setNewTask] = useState("");
 
