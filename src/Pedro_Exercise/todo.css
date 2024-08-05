@@ -15,3 +15,7 @@
 .list{
     text-align: center;
 }
+
+.list li{
+    list-style: none;
+}
