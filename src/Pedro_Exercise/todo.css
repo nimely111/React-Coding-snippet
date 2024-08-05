@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
-.App{
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.addTask{
     background-color: blue;
+    padding: 10px 15px;
 }
