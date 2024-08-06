@@ -13,7 +13,7 @@ const  TodoApp = () => {
 
   const addTask = () => {
 
-    if(newTask.trim() === "") return; // Prevent adding empty tasks
+    if(newTask.trim() === "") return alert("Please Enter Your todo"); // Prevent adding empty tasks
     const task = {
       id: todoList.length === 0 ? 1 : todoList[todoList.length - 1].id + 1,
       taskName: newTask,
