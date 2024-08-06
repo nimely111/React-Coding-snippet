@@ -23,6 +23,12 @@ const  TodoApp = () => {
     setNewTask("")  // Clear the input field after adding the task
   }
 
+  const handleKeyPress = (event) => {
+    if(event.key === 'Enter'){
+      addTask()  // Add task when Enter key is pressed
+    }
+  }
+
   const deleteTask = (id) =>{
     setTodoList(todoList.filter(task => task.id !== id))
   }
