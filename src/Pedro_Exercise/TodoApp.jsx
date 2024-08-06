@@ -46,7 +46,12 @@ const  TodoApp = () => {
   return (
     <div className='App'>
       <div className="addTask">
-        <input type="text" placeholder='Enter your todo' onChange={handleChange}/>
+        <input 
+        type="text" 
+        placeholder='Enter your todo' 
+        onChange={handleChange}
+        onKeyPress={handleKeyPress}
+        />
         <button onClick={addTask}>Add Task</button>
       </div>
       <div className="list">
