@@ -13,13 +13,14 @@ const  TodoApp = () => {
 
   const addTask = () => {
 
-    if(newTask.trim() === "") return;
+    if(newTask.trim() === "") return; // Prevent adding empty tasks
     const task = {
       id: todoList.length === 0 ? 1 : todoList[todoList.length - 1].id + 1,
       taskName: newTask,
       isCompleted: false
     }
     setTodoList([...todoList, task])
+    setNewTask("")  // Clear the input field after adding the task
   }
 
   const deleteTask = (id) =>{
