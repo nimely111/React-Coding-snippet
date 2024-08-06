@@ -20,7 +20,7 @@ const  TodoApp = () => {
       isCompleted: false
     }
     setTodoList([...todoList, task])
-    setNewTask("")  // Clear the input field after adding the task
+    setNewTask(" ")  // Clear the input field after adding the task
   }
 
   const handleKeyPress = (event) => {
