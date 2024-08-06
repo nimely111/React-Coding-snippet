@@ -57,7 +57,8 @@ const  TodoApp = () => {
       </div>
       <div className="list">
         {todoList.map(({taskName, id, isCompleted}) =>{
-          return <Task 
+          return <Task
+          key={id} //add a unique key prop for all task
           taskName={taskName} 
           id={id} 
           deleteTask={deleteTask} 
