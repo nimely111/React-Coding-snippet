@@ -81,18 +81,19 @@ const  TodoApp = () => {
         title='Dell Laptop' 
         description='500 GB & 16 GB RAM Core i5.' 
         price={350.45}/>
-      <Cards
-        title='Samsong Freezer' 
-        description='Freezes in less than an hour' 
-        price={220.39}/>
+
       <Cards 
-        title='Oven & Inbuilt Stove' 
-        description='Dual. with Electricity and Gas.' 
-        price={500.99}/>
-      <Cards
-        title='Dell Laptop' 
-        description='500 GB & 16 GB RAM Core i5.' 
-        price={350.45}/>
+          name='Google Home' 
+          description='Your AI assistant' 
+          price={59.99}/>
+      <Cards 
+          name='iPhone 12 pro max' 
+          description='The best iphone' 
+          price={1200}/>
+      <Cards 
+          name='Macbook Pro' 
+          description='Your Favorite Computer' 
+          price={2500}/>      
     </div>
   )
 }

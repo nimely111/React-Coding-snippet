@@ -4,9 +4,7 @@ function ItemDescription({title, description}) {
   return (
     <div>
          <p>
-          <i>
-          Title: {title}
-          </i>
+          <i>Title: {title}</i>
         </p>
         <p>
           <i>
