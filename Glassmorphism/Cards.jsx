@@ -8,11 +8,7 @@ function Cards({title, description, price}) {
     <div className="card-container">
       <div className="card">
         <ItemDescription title={title} description={description} />
-        <h2>
-          <i>
-          Price: ${price}
-          </i>
-          </h2>
+        <h3>Price: ${price}</h3>
         <Button />
       </div>
     </div>

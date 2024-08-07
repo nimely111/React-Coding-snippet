@@ -81,6 +81,18 @@ const  TodoApp = () => {
         title='Dell Laptop' 
         description='500 GB & 16 GB RAM Core i5.' 
         price={350.45}/>
+      <Cards
+        title='Samsong Freezer' 
+        description='Freezes in less than an hour' 
+        price={220.39}/>
+      <Cards 
+        title='Oven & Inbuilt Stove' 
+        description='Dual. with Electricity and Gas.' 
+        price={500.99}/>
+      <Cards
+        title='Dell Laptop' 
+        description='500 GB & 16 GB RAM Core i5.' 
+        price={350.45}/>
     </div>
   )
 }
