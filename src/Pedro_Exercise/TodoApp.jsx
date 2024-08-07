@@ -71,11 +71,11 @@ const  TodoApp = () => {
       {/* <StateQuizForm /> */}
       <Cards
         title='Samsong Freezer' 
-        description='Freezes in less than an hour and a storage.' 
+        description='Freezes in less than an hour' 
         price={220.39}/>
       <Cards 
-        title='Rexel Oven & Inbuilt Stove' 
-        description='Dual stove with Electricity and Gas.' 
+        title='Oven & Inbuilt Stove' 
+        description='Dual. with Electricity and Gas.' 
         price={500.99}/>
       <Cards
         title='Dell Laptop' 
