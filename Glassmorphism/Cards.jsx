@@ -1,7 +1,7 @@
 import "./Cards.css";
 import React from 'react';
 
-function Cards({title, description}) {
+function Cards({title, description, price}) {
   return (
     <div className="card-container">
       <div className="card">
@@ -15,6 +15,11 @@ function Cards({title, description}) {
           {description}
           </i>
         </p>
+        <h1>
+          <i>
+            ${price}
+          </i>
+          </h1>
       </div>
     </div>
   );
