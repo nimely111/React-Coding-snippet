@@ -5,21 +5,21 @@ function Cards({title, description, price}) {
   return (
     <div className="card-container">
       <div className="card">
-        <h2>
+        <p>
           <i>
           {title}
           </i>
-        </h2>
+        </p>
         <p>
           <i>
           {description}
           </i>
         </p>
-        <h1>
+        <h2>
           <i>
             ${price}
           </i>
-          </h1>
+          </h2>
       </div>
     </div>
   );

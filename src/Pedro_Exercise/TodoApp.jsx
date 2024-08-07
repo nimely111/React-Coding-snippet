@@ -47,7 +47,7 @@ const  TodoApp = () => {
 
   return (
     <div className='App'>
-      <div className="addTask">
+      {/* <div className="addTask">
         <input 
         type="text" 
         placeholder='Enter your todo'
@@ -56,8 +56,8 @@ const  TodoApp = () => {
         onKeyDown={handleKeyPress}
         />
         <button onClick={addTask}>Add Task</button>
-      </div>
-      <div className="list">
+      </div> */}
+      {/* <div className="list">
         {todoList.map(({taskName, id, isCompleted}) =>{
           return <Task
           key={id} //add a unique key prop for all task
@@ -67,19 +67,19 @@ const  TodoApp = () => {
           taskCompleted={taskCompleted} 
           isCompleted={isCompleted}/>
         })}
-      </div>
-      <StateQuizForm />
+      </div> */}
+      {/* <StateQuizForm /> */}
       <Cards
-        title='Card 1' 
-        description='This is a description for card 1.' 
+        title='Samsong Freezer' 
+        description='Freezes in less than an hour and a storage.' 
         price={220.39}/>
       <Cards 
-        title='Card 2' 
-        description='This is a description for card 2.' 
+        title='Rexel Oven & Inbuilt Stove' 
+        description='Dual stove with Electricity and Gas.' 
         price={500.99}/>
       <Cards
-        title='Card 3' 
-        description='This is a description for card 3.' 
+        title='Dell Laptop' 
+        description='500 GB & 16 GB RAM Core i5.' 
         price={350.45}/>
     </div>
   )
