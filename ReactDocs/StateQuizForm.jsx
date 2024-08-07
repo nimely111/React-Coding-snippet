@@ -13,6 +13,11 @@ const StateQuizForm = () => {
         e.preventDefault();
         setStatus('submitting')
         
+        try{
+
+        }catch{
+            
+        }
     }
 
     return (
