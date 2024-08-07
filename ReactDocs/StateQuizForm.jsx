@@ -43,6 +43,7 @@ const StateQuizForm = () => {
                     disabled={answer.length === 0 || status === 'submitting'}>
                    Submit 
                 </button>
+                {error !== null && <p className='error'>{error.message}</p>}
             </form>
         </div>
     )
