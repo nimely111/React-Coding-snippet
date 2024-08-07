@@ -9,6 +9,10 @@ const StateQuizForm = () => {
         return <h1>You answered correctly!</h1>
     }
 
+    const handleSubmit = (e) => {
+        // e.preventDefault()
+    }
+
     return (
         <div>
             <h2>City Quiz</h2>
@@ -18,7 +22,7 @@ const StateQuizForm = () => {
                 </textarea>
                 <br />
                 <button>
-                    
+                   Submit 
                 </button>
             </form>
         </div>

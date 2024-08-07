@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import './todo.css';
 import Task from './Task';
+import StateQuizForm from '../../ReactDocs/StateQuizForm';
 
 const  TodoApp = () => {
   const [todoList, setTodoList] = useState([]);
@@ -66,6 +67,7 @@ const  TodoApp = () => {
           isCompleted={isCompleted}/>
         })}
       </div>
+      <StateQuizForm />
     </div>
   )
 }
