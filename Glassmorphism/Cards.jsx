@@ -1,4 +1,4 @@
-import "./glass.css";
+import "./Cards.css";
 import React from 'react';
 
 function Cards({title, description}) {
