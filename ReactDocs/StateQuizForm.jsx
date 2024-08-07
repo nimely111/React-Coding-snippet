@@ -35,7 +35,8 @@ const StateQuizForm = () => {
                 >
                 <textarea
                 onChange={handleTextareaChange}
-                value={answer}>
+                value={answer}
+                disabled={status === 'submittig'}>
                 </textarea>
                 <br />
                 <button>
