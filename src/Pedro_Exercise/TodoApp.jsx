@@ -51,7 +51,7 @@ const  TodoApp = () => {
         placeholder='Enter your todo'
         value={newTask} 
         onChange={handleChange}
-        onKeyPress={handleKeyPress}
+        onKeyDown={handleKeyPress}
         />
         <button onClick={addTask}>Add Task</button>
       </div>
