@@ -14,9 +14,10 @@ const StateQuizForm = () => {
         setStatus('submitting')
         
         try{
-
+            await submitForm(answer);
+            setStatus('success');
         }catch{
-            
+
         }
     }
 
