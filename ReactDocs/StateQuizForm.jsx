@@ -10,8 +10,8 @@ const StateQuizForm = () => {
     }
 
     const handleSubmit = (e) => {
-        // e.preventDefault()
-        console.log(123);
+        e.preventDefault()
+        console.log(e.target.value);
         
     }
 
