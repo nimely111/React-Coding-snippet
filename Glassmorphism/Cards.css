@@ -18,7 +18,7 @@ body {
   .card {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
-    padding: 20px;
+    padding: 25px;
     width: 15rem;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);

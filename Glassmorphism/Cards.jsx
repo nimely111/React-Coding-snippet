@@ -12,12 +12,12 @@ function Cards({title, description, price}) {
         </p>
         <p>
           <i>
-          Description{description}
+          Description: {description}
           </i>
         </p>
         <h2>
           <i>
-          Price ${price}
+          Price: ${price}
           </i>
           </h2>
       </div>
