@@ -83,15 +83,15 @@ const  TodoApp = () => {
         price={350.45}/>
 
       <Cards 
-          name='Google Home' 
+          title='Google Home' 
           description='Your AI assistant' 
           price={59.99}/>
       <Cards 
-          name='iPhone 12 pro max' 
+          title='iPhone 12 pro max' 
           description='The best iphone' 
           price={1200}/>
       <Cards 
-          name='Macbook Pro' 
+          title='Macbook Pro' 
           description='Your Favorite Computer' 
           price={2500}/>      
     </div>
