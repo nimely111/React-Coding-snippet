@@ -22,6 +22,10 @@ const StateQuizForm = () => {
         }
     }
 
+    const handleTextareaChange = (e) => {
+        setAnswer(e.target.value);
+    }
+
     return (
         <div>
             <h2>City Quiz</h2>
