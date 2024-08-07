@@ -36,4 +36,9 @@ body {
     font-size: 1em;
   }
   
-  
+  .App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
