@@ -1,3 +1,4 @@
+import Button from "./Button";
 import "./Cards.css";
 import React from 'react';
 
@@ -20,6 +21,7 @@ function Cards({title, description, price}) {
           Price: ${price}
           </i>
           </h2>
+        <Button />
       </div>
     </div>
   );
