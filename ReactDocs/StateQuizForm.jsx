@@ -39,7 +39,8 @@ const StateQuizForm = () => {
                 disabled={status === 'submittig'}>
                 </textarea>
                 <br />
-                <button>
+                <button
+                    disabled={answer.length === 0 || status === 'submitting'}>
                    Submit 
                 </button>
             </form>
