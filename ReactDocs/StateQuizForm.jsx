@@ -13,6 +13,14 @@ const StateQuizForm = () => {
         <div>
             <h2>City Quiz</h2>
             <p>In which city is there a billboard that turns air into drinkable water?</p>
+            <form>
+                <textarea>
+                </textarea>
+                <br />
+                <button>
+                    
+                </button>
+            </form>
         </div>
     )
 }
