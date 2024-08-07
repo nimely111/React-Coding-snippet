@@ -3,9 +3,7 @@ import React from 'react'
 function ItemDescription({title, description}) {
   return (
     <div>
-         <p>
-          <i>Title: {title}</i>
-        </p>
+         <p>Title: {title}</p>
         <p>
           <i>
           Description: {description}
