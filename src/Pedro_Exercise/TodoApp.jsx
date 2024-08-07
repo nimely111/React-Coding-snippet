@@ -3,7 +3,6 @@ import { useState } from 'react';
 import './todo.css';
 import Task from './Task';
 import StateQuizForm from '../../ReactDocs/StateQuizForm';
-import Glass from '../../Glassmorphism/Cards'
 import Cards from '../../Glassmorphism/Cards';
 
 const  TodoApp = () => {
