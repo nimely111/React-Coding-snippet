@@ -1,12 +1,12 @@
 import "./glass.css";
 import React from 'react';
 
-function Cards() {
+function Cards({title, description}) {
   return (
     <div className="card-container">
       <div className="card">
-        <h2></h2>
-        <p></p>
+        <h2>{title}</h2>
+        <p>{description}</p>
       </div>
     </div>
   );
