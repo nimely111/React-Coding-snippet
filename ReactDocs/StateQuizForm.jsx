@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './StateQuizForm.css'
 
 const StateQuizForm = () => {
     const [answer, setAnswer] = useState('');
