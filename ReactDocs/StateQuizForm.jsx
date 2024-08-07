@@ -8,3 +8,5 @@ const StateQuizForm = () => {
         </div>
     )
 }
+
+export default StateQuizForm;
