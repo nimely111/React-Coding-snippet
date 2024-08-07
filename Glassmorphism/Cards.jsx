@@ -5,8 +5,16 @@ function Cards({title, description}) {
   return (
     <div className="card-container">
       <div className="card">
-        <h2>{title}</h2>
-        <p>{description}</p>
+        <h2>
+          <i>
+          {title}
+          </i>
+        </h2>
+        <p>
+          <i>
+          {description}
+          </i>
+        </p>
       </div>
     </div>
   );
