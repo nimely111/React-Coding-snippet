@@ -71,13 +71,16 @@ const  TodoApp = () => {
       <StateQuizForm />
       <Cards
         title='Card 1' 
-        description='This is a description for card 1.' />
+        description='This is a description for card 1.' 
+        price={220.39}/>
       <Cards 
         title='Card 2' 
-        description='This is a description for card 2.' />
+        description='This is a description for card 2.' 
+        price={500.99}/>
       <Cards
         title='Card 3' 
-        description='This is a description for card 3.' />
+        description='This is a description for card 3.' 
+        price={350.45}/>
     </div>
   )
 }
