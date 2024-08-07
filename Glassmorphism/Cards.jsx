@@ -5,8 +5,8 @@ function Cards() {
   return (
     <div className="card-container">
       <div className="card">
-        <h2>Card 1</h2>
-        <p>This is a description for card 1.</p>
+        <h2></h2>
+        <p></p>
       </div>
     </div>
   );
