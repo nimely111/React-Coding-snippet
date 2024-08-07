@@ -9,7 +9,7 @@ const StateQuizForm = () => {
         return <h1>You answered correctly!</h1>
     }
 
-    const handleSubmit = (e) => {
+     async function handleSubmit(e) {
         e.preventDefault();
         setStatus('submitting')
         
