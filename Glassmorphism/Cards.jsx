@@ -7,17 +7,17 @@ function Cards({title, description, price}) {
       <div className="card">
         <p>
           <i>
-          {title}
+          Title: {title}
           </i>
         </p>
         <p>
           <i>
-          {description}
+          Description{description}
           </i>
         </p>
         <h2>
           <i>
-            ${price}
+          Price ${price}
           </i>
           </h2>
       </div>
