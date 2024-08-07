@@ -31,8 +31,11 @@ const StateQuizForm = () => {
             <h2>City Quiz</h2>
             <p>In which city is there a billboard that turns air into drinkable water?</p>
             <form
-                onSubmit={handleSubmit}>
-                <textarea>
+                onSubmit={handleSubmit}
+                >
+                <textarea
+                onChange={handleTextareaChange}
+                value={answer}>
                 </textarea>
                 <br />
                 <button>
