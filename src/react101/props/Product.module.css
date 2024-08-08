@@ -5,7 +5,7 @@
 }
 
 .error{
-    color: var(--error-color);
+    color: red;
     font-weight: bolder;
 }
 
