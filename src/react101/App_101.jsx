@@ -9,7 +9,7 @@ function App_101(){
           {/* <StateComponent />
           <ClassStateComponent />
           <Login /> */}
-
+      <h2 className="err">An error occured</h2>
           <Product 
           name='Google Home' 
           description='Your AI assistant' 

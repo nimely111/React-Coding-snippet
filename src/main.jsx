@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <App_2 /> */}
-    {/* <App_101 /> */}
-    <TodoApp />
+    <App_101 />
+    {/* <TodoApp /> */}
   </React.StrictMode>,
 )

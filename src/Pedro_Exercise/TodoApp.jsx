@@ -4,6 +4,7 @@ import './todo.css';
 import Task from './Task';
 import StateQuizForm from '../../ReactDocs/StateQuizForm';
 import Cards from '../../Glassmorphism/Cards';
+import StateStructure from '../../ReactDocs/StateStructure';
 
 const  TodoApp = () => {
   const [todoList, setTodoList] = useState([]);
@@ -47,7 +48,7 @@ const  TodoApp = () => {
 
   return (
     <div className='App'>
-      {/* <div className="addTask">
+      <div className="addTask">
         <input 
         type="text" 
         placeholder='Enter your todo'
@@ -56,8 +57,8 @@ const  TodoApp = () => {
         onKeyDown={handleKeyPress}
         />
         <button onClick={addTask}>Add Task</button>
-      </div> */}
-      {/* <div className="list">
+      </div>
+      <div className="list">
         {todoList.map(({taskName, id, isCompleted}) =>{
           return <Task
           key={id} //add a unique key prop for all task
@@ -67,9 +68,10 @@ const  TodoApp = () => {
           taskCompleted={taskCompleted} 
           isCompleted={isCompleted}/>
         })}
-      </div> */}
+      </div>
+      <StateStructure />
       {/* <StateQuizForm /> */}
-      <Cards
+      {/* <Cards
         title='Samsong Freezer' 
         description='Freezes in less than an hour' 
         price={220.39}/>
@@ -93,7 +95,7 @@ const  TodoApp = () => {
       <Cards 
           title='Macbook Pro' 
           description='Your Favorite Computer' 
-          price={2500}/>      
+          price={2500}/>       */}
     </div>
   )
 }
