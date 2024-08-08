@@ -2,6 +2,7 @@ import StateComponent from "./StateComponent";
 import ClassStateComponent from "./ClassStateComponent";
 import Login from "./Login";
 import Product from "./props/Product";
+import styles from './App.module.css'
 
 function App_101(){
     return(
@@ -9,7 +10,7 @@ function App_101(){
           {/* <StateComponent />
           <ClassStateComponent />
           <Login /> */}
-      <h2 className="error">An error occured</h2>
+      <h2 className={styles.error}>An error occured</h2>
           <Product 
           name='Google Home' 
           description='Your AI assistant' 
