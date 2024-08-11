@@ -7,7 +7,7 @@ const Text = () =>{
         <div>
       <input
       onChange={(event)=> {
-          setText(e.target.value)
+          setText(event.target.value)
       }}
        />
       <h1>{text}</h1>
