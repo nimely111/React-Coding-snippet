@@ -7,7 +7,7 @@ const Text = () =>{
 
        
         
-    }, [text])
+    }, [])
     
     return (
         <div>
