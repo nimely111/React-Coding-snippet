@@ -7,7 +7,7 @@ const LearnUseEffect = () => {
   return (
     <div className='App'>
       <button
-      onClick={setShowText(!showText)}
+      onClick={() => setShowText(!showText)}
       >
         Show/Hide
       </button>
