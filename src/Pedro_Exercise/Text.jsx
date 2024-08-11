@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const Text = () =>{
     const [text, setText] = useState('');
 
-    const handleClick = (e) => {
+    const handleChange = (e) => {
         setText(e.target.value)
     }
 
@@ -11,7 +11,7 @@ const Text = () =>{
   return (
     <div>
       <input
-      onChange={handleClick}
+      onChange={handleChange}
        />
       <h1>{text}</h1>
     </div>
