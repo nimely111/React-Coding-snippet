@@ -1,7 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const Text = () =>{
     const [text, setText] = useState('');
+    useEffect(() => {
+        console.log('Component MOunted');
+
+       
+        
+    }, [text])
     
     return (
         <div>
