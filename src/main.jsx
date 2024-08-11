@@ -14,5 +14,5 @@ root.render(
     {/* <App_2 /> */}
     {/* <App_101 /> */}
     <TodoApp />
-  </React.StrictMode>,
+  </React.StrictMode>
 )

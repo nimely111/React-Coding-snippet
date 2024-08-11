@@ -3,10 +3,11 @@ import React, { useState, useEffect } from 'react'
 const Text = () =>{
     const [text, setText] = useState('');
     useEffect(() => {
-        console.log('Component MOunted');
+        console.log('Component Mounted');
 
-       
-        
+        return () => {
+            console.log('Component Unmounted');
+        }
     }, [])
     
     return (
