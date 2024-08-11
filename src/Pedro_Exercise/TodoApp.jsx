@@ -5,8 +5,6 @@ import Task from './Task';
 import StateQuizForm from '../../ReactDocs/StateQuizForm';
 import Cards from '../../Glassmorphism/Cards';
 import StateStructure from '../../ReactDocs/StateStructure';
-import Text from './Text';
-
 const  TodoApp = () => {
   const [todoList, setTodoList] = useState([]);
   const [newTask, setNewTask] = useState("");
@@ -71,7 +69,6 @@ const  TodoApp = () => {
         })}
       </div>
       <StateStructure />
-      <Text />
       {/* <StateQuizForm /> */}
       {/* <Cards
         title='Samsong Freezer' 
