@@ -5,6 +5,7 @@ import Task from './Task';
 import StateQuizForm from '../../ReactDocs/StateQuizForm';
 import Cards from '../../Glassmorphism/Cards';
 import StateStructure from '../../ReactDocs/StateStructure';
+import Text from './Text';
 const  TodoApp = () => {
   const [todoList, setTodoList] = useState([]);
   const [newTask, setNewTask] = useState("");
@@ -100,5 +101,21 @@ const  TodoApp = () => {
   )
 }
 
+
+ const LearnUseEffect = () => {
+  const [showText, setShowText] = useState(false);
+  
+
+return (
+  <div className='App'>
+    <button
+    onClick={() => setShowText(!showText)}
+    >
+      Show/Hide
+    </button>
+    {showText && <Text />}
+  </div>
+)
+}
 export default TodoApp
 
