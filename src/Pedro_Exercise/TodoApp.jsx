@@ -68,6 +68,7 @@ const  TodoApp = () => {
           isCompleted={isCompleted}/>
         })}
       </div>
+      <LearnUseEffect />
       {/* <StateStructure /> */}
       {/* <StateQuizForm /> */}
       {/* <Cards
@@ -94,19 +95,20 @@ const  TodoApp = () => {
       <Cards 
           title='Macbook Pro' 
           description='Your Favorite Computer' 
-          price={2500}/>       */}
+          price={2500}/>       */}  
     </div>
   )
 }
-export default TodoApp
 
-const LearnUseEffect = () => {
+
+ const LearnUseEffect = () => {
   const [showText, setShowText] = useState(false);
+  
 
 return (
   <div className='App'>
     <button
-    onClick={setShowText(!showText)}
+    onClick={() => setShowText(!showText)}
     >
       Show/Hide
     </button>
@@ -114,3 +116,21 @@ return (
   </div>
 )
 }
+
+ const Text = () =>{
+  const [text, setText] = useState('');
+  
+  return (
+      <div>
+    <input
+    onChange={(event)=> {
+        setText(event.target.value)
+    }}
+     />
+    <h1>{text}</h1>
+  </div>
+)
+}
+
+export default TodoApp
+
