@@ -2,16 +2,13 @@ import React, { useState } from 'react'
 
 const Text = () =>{
     const [text, setText] = useState('');
-
-    const handleChange = (e) => {
-        setText(e.target.value)
-    }
-
-
-  return (
-    <div>
+    
+    return (
+        <div>
       <input
-      onChange={handleChange}
+      onChange={(event)=> {
+          setText(e.target.value)
+      }}
        />
       <h1>{text}</h1>
     </div>

@@ -11,7 +11,7 @@ const LearnUseEffect = () => {
       >
         Show/Hide
       </button>
-      {<Text />}
+      {showText && <Text />}
     </div>
   )
 }
