@@ -1,15 +1,17 @@
 import StateComponent from "./StateComponent";
 import ClassStateComponent from "./ClassStateComponent";
-import Login from "./Login";
 import Product from "./props/Product";
 import styles from './App.module.css'
+import { useState } from "react";
 
 function App_101(){
+    const [todos, setTodos] = useState([]);
+    const [input, setInput] = useState('')
+
     return(
         <>
           {/* <StateComponent />
-          <ClassStateComponent />
-          <Login /> */}
+          <ClassStateComponent /> */}
       <h2 className={styles.error}>An error occured</h2>
           <Product 
           name='Google Home' 
