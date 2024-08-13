@@ -9,7 +9,7 @@ function App_101(){
     const [input, setInput] = useState('');
 
     const addTodos = (e) => {
-        e.preventDefault(); // stop from from refreshing
+        e.preventDefault(); // stop form from refreshing
         setTodos([...todos, input]);
         setInput('');
     }
@@ -21,7 +21,11 @@ function App_101(){
             value={input} 
             onChange={e => setInput(e.target.value)}
             type="text" />  
-          <button type="submit" onClick={addTodos}>Add Todos</button> 
+            <button 
+            type="submit" 
+            onClick={addTodos}>
+                Add Todos
+            </button> 
             </form> 
           {todos.map(todo => (
             <p>{todo}</p>
