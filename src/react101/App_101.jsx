@@ -27,8 +27,8 @@ function App_101(){
                 Add Todos
             </button> 
             </form> 
-          {todos.map(todo => (
-            <p>{todo}</p>
+          {todos.map((todo, key) => (
+            <p key={key}>{todo}</p>
           ))}
 
           {/* <StateComponent />
