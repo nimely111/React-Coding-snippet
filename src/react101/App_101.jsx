@@ -8,7 +8,9 @@ function App_101(){
     const [todos, setTodos] = useState([]);
     const [input, setInput] = useState('');
 
-    
+    const addTodos = (e) => {
+        
+    }
 
     return(
         <>
