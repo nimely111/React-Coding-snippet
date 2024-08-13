@@ -10,6 +10,7 @@ function App_101(){
 
     const addTodos = (e) => {
         setTodos([...todos, input]);
+        setInput('');
     }
 
     return(
