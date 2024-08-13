@@ -15,11 +15,13 @@ function App_101(){
 
     return(
         <>
-         <input
+            <form>
+            <input
             value={input} 
             onChange={e => setInput(e.target.value)}
             type="text" />  
-          <button onClick={addTodos}>Add Todos</button>  
+          <button type="submit" onClick={addTodos}>Add Todos</button> 
+            </form> 
           {todos.map(todo => (
             <p>{todo}</p>
           ))}
