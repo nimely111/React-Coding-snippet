@@ -26,7 +26,16 @@ function App_101(){
           <Product 
           name='Macbook Pro' 
           description='Your Favorite Computer' 
-          price={2500}/>        
+          price={2500}/>  
+
+          <input
+            value={input} 
+            onChange={e => setInput(e.target.value)}
+          type="text" />  
+          <button>Add Todos</button>  
+          {todos.map(todo => (
+            <p>{todo}</p>
+          ))}
         </>
     )
 }
