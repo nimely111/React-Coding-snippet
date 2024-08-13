@@ -6,7 +6,9 @@ import { useState } from "react";
 
 function App_101(){
     const [todos, setTodos] = useState([]);
-    const [input, setInput] = useState('')
+    const [input, setInput] = useState('');
+
+    
 
     return(
         <>
@@ -32,7 +34,7 @@ function App_101(){
             value={input} 
             onChange={e => setInput(e.target.value)}
           type="text" />  
-          <button>Add Todos</button>  
+          <button onClick={addTodos}>Add Todos</button>  
           {todos.map(todo => (
             <p>{todo}</p>
           ))}
