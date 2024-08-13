@@ -9,7 +9,7 @@ function App_101(){
     const [input, setInput] = useState('');
 
     const addTodos = (e) => {
-        setTodos(...todos, input);
+        setTodos([...todos, input]);
     }
 
     return(
@@ -17,11 +17,12 @@ function App_101(){
          <input
             value={input} 
             onChange={e => setInput(e.target.value)}
-          type="text" />  
+            type="text" />  
           <button onClick={addTodos}>Add Todos</button>  
           {todos.map(todo => (
             <p>{todo}</p>
           ))}
+
           {/* <StateComponent />
           <ClassStateComponent /> */}
       <h2 className={styles.error}>An error occured</h2>
