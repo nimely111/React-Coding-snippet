@@ -9,6 +9,7 @@ function App_101(){
     const [input, setInput] = useState('');
 
     const addTodos = (e) => {
+        e.preventDefault(); // stop from from refreshing
         setTodos([...todos, input]);
         setInput('');
     }
