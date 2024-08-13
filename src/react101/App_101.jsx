@@ -9,11 +9,19 @@ function App_101(){
     const [input, setInput] = useState('');
 
     const addTodos = (e) => {
-        
+        setTodos(...todos, input);
     }
 
     return(
         <>
+         <input
+            value={input} 
+            onChange={e => setInput(e.target.value)}
+          type="text" />  
+          <button onClick={addTodos}>Add Todos</button>  
+          {todos.map(todo => (
+            <p>{todo}</p>
+          ))}
           {/* <StateComponent />
           <ClassStateComponent /> */}
       <h2 className={styles.error}>An error occured</h2>
@@ -31,15 +39,6 @@ function App_101(){
           name='Macbook Pro' 
           description='Your Favorite Computer' 
           price={2500}/>  
-
-          <input
-            value={input} 
-            onChange={e => setInput(e.target.value)}
-          type="text" />  
-          <button onClick={addTodos}>Add Todos</button>  
-          {todos.map(todo => (
-            <p>{todo}</p>
-          ))}
         </>
     )
 }
