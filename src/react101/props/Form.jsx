@@ -4,11 +4,13 @@ const Form = () => {
     const [todos, setTodos] = useState([]);
     const [input, setInput] = useState('');
 
-    const addTodo = (e) => {
+    const addTodos = (e) => {
       e.preventDefault()
-      setTodos([[...todos, input]])
+      setTodos([...todos, input])
       setInput('')
     }
+
+    
 
   return (
     <div>
