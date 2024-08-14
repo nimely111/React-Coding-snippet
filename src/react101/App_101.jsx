@@ -6,14 +6,6 @@ import { useState } from "react";
 import Form from "./props/Form";
 
 function App_101(){
-    // const [todos, setTodos] = useState([]);
-    // const [input, setInput] = useState('');
-
-    // const addTodos = (e) => {
-    //     e.preventDefault(); // stop form from refreshing
-    //     setTodos([...todos, input]);
-    //     setInput('');
-    // }
 
     return(
         <>
