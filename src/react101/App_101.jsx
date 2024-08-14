@@ -3,33 +3,21 @@ import ClassStateComponent from "./ClassStateComponent";
 import Product from "./props/Product";
 import styles from './App.module.css'
 import { useState } from "react";
+import Form from "./props/Form";
 
 function App_101(){
-    const [todos, setTodos] = useState([]);
-    const [input, setInput] = useState('');
+    // const [todos, setTodos] = useState([]);
+    // const [input, setInput] = useState('');
 
-    const addTodos = (e) => {
-        e.preventDefault(); // stop form from refreshing
-        setTodos([...todos, input]);
-        setInput('');
-    }
+    // const addTodos = (e) => {
+    //     e.preventDefault(); // stop form from refreshing
+    //     setTodos([...todos, input]);
+    //     setInput('');
+    // }
 
     return(
         <>
-            <form>
-            <input
-            value={input} 
-            onChange={e => setInput(e.target.value)}
-            type="text" />  
-            <button 
-            type="submit" 
-            onClick={addTodos}>
-                Add Todos
-            </button> 
-            </form> 
-          {todos.map((todo, key) => (
-            <p key={key}>{todo}</p>
-          ))}
+        <Form />
 
           {/* <StateComponent />
           <ClassStateComponent /> */}
