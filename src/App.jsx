@@ -8,8 +8,8 @@ import { useState } from 'react';
 import  Job  from './Pedro_Exercise/Job';
 import Planets from './Pedro_Exercise/Planets';
 import Emplooyes from './Employees';
-import CompareClassToFunction from './react101/CompareClassToFunction';
-import CompareFunctionToClass from './react101/CompareFunctionToClass';
+import CompareClassToFunction from '../react101/CompareClassToFunction';
+import CompareFunctionToClass from '../react101/CompareFunctionToClass';
 import Greetings from '../Components/Classes/Greetings';
 import Class_Counter from '../Components/Classes/Class_Counter';
 
