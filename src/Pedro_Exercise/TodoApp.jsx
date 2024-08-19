@@ -57,8 +57,10 @@ const  TodoApp = () => {
         onChange={handleChange}
         onKeyDown={handleKeyPress}
         />
-        <button onClick={addTask}>Add Task</button>
-        <Button />
+        <Button 
+        title='Add Task'
+        onClick={addTask}
+        />
       </div>
       <div className="list">
         {todoList.map(({taskName, id, isCompleted}) =>{
