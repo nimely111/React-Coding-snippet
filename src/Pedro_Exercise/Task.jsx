@@ -9,8 +9,12 @@ const Task = ({taskName, id, deleteTask, taskCompleted, isCompleted}) =>  {
        >
             <li>
                 {taskName}
-                <button onClick={() => taskCompleted(id)}>Complete</button>
-                <button onClick={() => deleteTask(id)}>X</button>
+                {/* <button onClick={() => taskCompleted(id)}>Complete</button>
+                <button onClick={() => deleteTask(id)}>X</button> */}
+                <TodoButton
+                    taskCompleted={taskCompleted(id)}
+                    deleteTask={deleteTask(id)}
+                 />
             </li>
         </div>
   )
