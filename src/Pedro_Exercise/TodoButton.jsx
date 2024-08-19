@@ -3,7 +3,7 @@ import React from 'react'
 const button = ({label, addTask}) => {
   return (
     <div>
-      <button></button>
+      <button onClick={addTask}>{label}</button>
     </div>
   )
 }
