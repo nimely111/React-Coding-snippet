@@ -58,7 +58,7 @@ const  TodoApp = () => {
         onKeyDown={handleKeyPress}
         />
         <Button 
-        title='Add Task'
+        label='Add Task'
         onClick={addTask}
         />
       </div>
