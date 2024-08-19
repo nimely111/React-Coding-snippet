@@ -6,6 +6,8 @@ import StateQuizForm from '../../ReactDocs/StateQuizForm';
 import Cards from '../../Glassmorphism/Cards';
 import StateStructure from '../../ReactDocs/StateStructure';
 import Text from './Text';
+import Button from '../Pedro_Exercise/TodoButton'
+
 const  TodoApp = () => {
   const [todoList, setTodoList] = useState([]);
   const [newTask, setNewTask] = useState("");
@@ -56,6 +58,7 @@ const  TodoApp = () => {
         onKeyDown={handleKeyPress}
         />
         <button onClick={addTask}>Add Task</button>
+        <Button />
       </div>
       <div className="list">
         {todoList.map(({taskName, id, isCompleted}) =>{
