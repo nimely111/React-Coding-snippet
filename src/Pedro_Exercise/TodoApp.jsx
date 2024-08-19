@@ -59,7 +59,7 @@ const  TodoApp = () => {
         />
         <TodoButton 
         label='Add Task'
-        onClick={addTask}
+        addTask={addTask}
         />
       </div>
       <div className="list">
