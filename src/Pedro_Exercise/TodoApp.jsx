@@ -50,7 +50,6 @@ const  TodoApp = () => {
     <div className='App'>
       <div className="addTask">
         <input 
-        type="text" 
         placeholder='Enter your todo'
         value={newTask} 
         onChange={handleChange}
