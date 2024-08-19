@@ -6,7 +6,7 @@ import StateQuizForm from '../../ReactDocs/StateQuizForm';
 import Cards from '../../Glassmorphism/Cards';
 import StateStructure from '../../ReactDocs/StateStructure';
 import Text from './Text';
-import Button from '../Pedro_Exercise/TodoButton'
+import TodoButton from '../Pedro_Exercise/TodoButton'
 
 const  TodoApp = () => {
   const [todoList, setTodoList] = useState([]);
@@ -57,7 +57,7 @@ const  TodoApp = () => {
         onChange={handleChange}
         onKeyDown={handleKeyPress}
         />
-        <Button 
+        <TodoButton 
         label='Add Task'
         onClick={addTask}
         />
