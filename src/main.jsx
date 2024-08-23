@@ -5,6 +5,7 @@ import App_2 from '../Components/Classes/App_2.jsx'
 import App_101 from '../react101/App_101.jsx'
 // import './index.css'
 import TodoApp from './Pedro_Exercise/TodoApp.jsx'
+import RouterApp from './Pedro_Exercise/Router_DOM/RouterApp.jsx'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -13,6 +14,7 @@ root.render(
     {/* <App /> */}
     {/* <App_2 /> */}
     {/* <App_101 /> */}
-    <TodoApp />
+    {/* <TodoApp /> */}
+    <RouterApp />
   </React.StrictMode>
 )
