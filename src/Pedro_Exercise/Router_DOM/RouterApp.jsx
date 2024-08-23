@@ -3,11 +3,13 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './Pages/Home'
 import Menu from './Pages/Menu';
 import Contact from './Contact';
+import Navbar from './Nav/Navbar';
 
 const RouterApp = () => {
   return (
     <div>
       <Router>
+        <Navbar />
         <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/menu' element={<Menu />}/>
