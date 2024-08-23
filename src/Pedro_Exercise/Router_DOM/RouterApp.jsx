@@ -8,11 +8,6 @@ const RouterApp = () => {
   return (
     <div>
       <Router>
-        <div>
-          <Link to='/'> Home</Link>
-          <Link to='/menu'> Menu</Link>
-          <Link to='/contact'> Contact</Link>
-        </div>
         <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/menu' element={<Menu />}/>
