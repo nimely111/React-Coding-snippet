@@ -7,7 +7,7 @@ const RouterApp = () => {
     <div>
       <Router>
         <Routes>
-            <Route path='' />
+            <Route path='/' element={Home} />
             <Route path='' />
             <Route path='' />
         </Routes>
