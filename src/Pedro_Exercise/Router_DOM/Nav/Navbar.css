@@ -9,3 +9,10 @@
     justify-content: center;
     align-items: center;
 }
+
+.navbar a{
+    text-decoration: none;
+    margin-right: 5px;
+    color: #000000;
+    font-size: 20px;
+}
