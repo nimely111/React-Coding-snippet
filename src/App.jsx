@@ -21,7 +21,7 @@ function App() {
     setCount(count + 1)
   }
 
-// sonny class
+// react 101 class
   function getGreeting(user){
     if(user){
       return <h1>Hello, { user }!</h1>
@@ -43,10 +43,10 @@ function App() {
         { getGreeting("Vick") }
         <h2>You are a {isMale ? "Male" : "Female"}</h2>
 
-        <UserData />
-        <ConditionalRendering />
-        <RenderingList /> 
-        <RespondingToEvents />
+        {/* <UserData /> */}
+        {/* <ConditionalRendering /> */}
+        {/* <RenderingList />  */}
+        {/* <RespondingToEvents /> */}
         <h2>Counters that update together</h2>
         <UpdatingTheScreen count={count} onClick={handleClick} />
         <UpdatingTheScreen count={count} onClick={handleClick} /> 
@@ -54,13 +54,16 @@ function App() {
         <Job salary={90000} position="Senior SDE" company="Amazon" />
         <Job salary={12000} position="Junior SDE" company="Google" />
         <Job salary={10000} position="Project Manager" company="Netflicks" />
-        <Planets />
-        <hr />
-        <Emplooyes />
-        <CompareClassToFunction />
-        <CompareFunctionToClass />
+
+
+
+        {/* <Planets /> */}
+        {/* <hr /> */}
+        {/* <Emplooyes /> */}
+        {/* <CompareClassToFunction /> */}
+        {/* <CompareFunctionToClass />
         <Greetings first_name="Taylor" last_name="Jones"/>
-        <Class_Counter />
+        <Class_Counter /> */}
       </div>
       
 

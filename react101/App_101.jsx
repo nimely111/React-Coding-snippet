@@ -1,9 +1,9 @@
-import StateComponent from "./StateComponent";
 import ClassStateComponent from "./ClassStateComponent";
 import Product from "./props/Product";
 import styles from './App.module.css'
 import { useState } from "react";
 import Form from "./props/Form";
+import StateComponent from "./StateComponent";
 
 function App_101(){
 
@@ -11,8 +11,8 @@ function App_101(){
         <>
         <Form />
 
-          {/* <StateComponent />
-          <ClassStateComponent /> */}
+           <StateComponent />
+         {/* <ClassStateComponent /> */}
       <h2 className={styles.error}>An error occured</h2>
           <Product 
           name='Google Home' 

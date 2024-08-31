@@ -17,6 +17,8 @@ function StateComponent(){
     const setToZero = () => {
         setCount(0)
     }
+
+    const content = 'The count is:'
     return(
         <>
             <h1>Welcome to my Counter App</h1>
@@ -54,17 +56,18 @@ function StateComponent(){
                 setToZero
                 }>Reset</button>
              
-            {count >= 0 ? <h2 
-            style={{
+            {count >= 0 ? 
+                <h2 
+                style={{
                 color: 'green'
                 }}>
-                The count is: { count }
-                    </h2> :  
-                    <h2 
-            style={{
+                 {content} { count }
+                </h2> :  
+                <h2 
+                style={{
                 color: 'red'
                 }}>
-                The count is: { count }
+                 {content} { count }
                 </h2>}
         </>
     )

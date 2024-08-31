@@ -13,8 +13,8 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <App_2 /> */}
-    {/* <App_101 /> */}
+    <App_101 />
     {/* <TodoApp /> */}
-    <RouterApp />
+    {/* <RouterApp /> */}
   </React.StrictMode>
 )
