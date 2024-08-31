@@ -18,29 +18,24 @@ function StateComponent(){
         setCount(0)
     }
 
-    const content = 'The count is:'
+    const content = 'The count is:';
+    const Btn_styles = {
+        marginRight: '5px',
+        padding: '7px 20px',
+        background: 'blue',
+        color: '#fff',
+        fontSize: '20px'
+    }
     return(
         <>
             <h1>Welcome to my Counter App</h1>
             <h2>Using Function Based Component</h2>
-            <button style={{
-                marginRight: '5px',
-                padding: '7px 20px',
-                background: 'blue',
-                color: '#fff',
-                fontSize: '20px'
-            }} 
+            <button style={ Btn_styles } 
                 onClick={
                 decreaseCount
                 }>-</button>
 
-            <button style={{
-                marginRight: '5px',
-                padding: '7px 20px',
-                background: 'blue',
-                color: '#fff',
-                fontSize: '20px'
-            }}
+            <button style={Btn_styles}
                 onClick={
                 increaseCount
                 }>+</button>
