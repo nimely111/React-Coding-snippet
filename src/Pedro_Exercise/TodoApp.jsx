@@ -24,6 +24,7 @@ const  TodoApp = () => {
       taskName: newTask,
       isCompleted: false
     }
+    
     setTodoList([...todoList, task])
     setNewTask(" ")  // Clear the input field after adding the task
   }

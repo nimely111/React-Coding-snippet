@@ -4,6 +4,7 @@ import styles from './App.module.css'
 import { useState } from "react";
 import Form from "./props/Form";
 import StateComponent from "./StateComponent";
+import TodoApp from "../src/Pedro_Exercise/TodoApp";
 
 function App_101(){
 
@@ -12,6 +13,8 @@ function App_101(){
         <Form />
 
            <StateComponent />
+           <ClassStateComponent />  
+           {/* <TodoApp /> */}
          {/* <ClassStateComponent /> */}
       <h2 className={styles.error}>An error occured</h2>
           <Product 

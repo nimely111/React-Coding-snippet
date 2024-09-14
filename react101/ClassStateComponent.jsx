@@ -5,9 +5,25 @@ class ClassStateComponent extends Component{
         super(props);
 
         this.state = {
-            count: 0
+            count: 0,
+            name: ''
         }
     }
+
+    componentDidMount(){
+        console.log('Component Mounted');
+        this.setState({name: 'Component Mounted'})
+    }
+
+
+    change = (e) => {
+        this.setState({name: e.target.value})
+    }
+
+    myAlert(){
+        alert('Hello! You click me')
+    }
+    
 
     // increase Count
      increaseCount = () => {
@@ -23,7 +39,6 @@ class ClassStateComponent extends Component{
      setToZero = () => {
         this.setState({count: 0})
     }
-
 
     render(){
         return(
@@ -52,7 +67,7 @@ class ClassStateComponent extends Component{
                 this.increaseCount
                 }>+</button>
 
-<button style={{
+            <button style={{
                 marginRight: '5px',
                 padding: '7px 20px',
                 background: 'blue',
@@ -76,9 +91,21 @@ class ClassStateComponent extends Component{
                 The count is: { this.state.count }
                 </h2>}
 
+                <input type="text" onChange={this.change}/>
+                <h1>{this.state.name}</h1>
+                <h1 onClick={this.myAlert}>Hello World</h1>
             </>
-        )
+        ) 
     }
+
+    
 }
 
-export default ClassStateComponent
+export default ClassStateComponent;
+
+
+
+function add(a, b) {
+    return a + b
+}
+console.log(add(4, 2));

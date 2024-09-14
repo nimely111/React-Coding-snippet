@@ -57,7 +57,8 @@ function StateComponent(){
                 color: 'green'
                 }}>
                  {content} { count }
-                </h2> :  
+                </h2> 
+                    :  
                 <h2 
                 style={{
                 color: 'red'
