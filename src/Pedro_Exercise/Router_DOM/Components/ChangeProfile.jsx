@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { useContext } from 'react'
 import { AppContext } from '../RouterApp'
 
-const ChangeProfile = ({setUserName}) => {
+const ChangeProfile = () => {
+    const { setUserName } = useContext(AppContext)
     const [newUserName, setNewUserName] = useState('')
 
     const handleSubmit = (e) => {
