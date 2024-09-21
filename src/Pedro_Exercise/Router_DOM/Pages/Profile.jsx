@@ -4,11 +4,11 @@ import { useContext } from 'react'
 import { AppContext } from '../RouterApp'
 
 const Profile = () => {
-    const { userName, setUserName } = useContext(AppContext)
+    const { userName } = useContext(AppContext)
   return (
     <div>
       <h1>Profile, user is {userName}</h1>
-      <ChangeProfile setUserName={setUserName}/>
+      <ChangeProfile />
     </div>
   )
 }
