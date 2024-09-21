@@ -14,7 +14,7 @@ const RouterApp = () => {
         <Navbar />
         <Routes>
             <Route path='/' element={<Home username={userName} />} />
-            <Route path='/profile' element={<Profile username={userName} />}/>
+            <Route path='/profile' element={<Profile username={userName} setUserName={setUserName} />}/>
             <Route path='/contact' element={<Contact />} />
             <Route path='*' element={<h1>Oops! PAGE NOT FOUND</h1>} />
         </Routes>
