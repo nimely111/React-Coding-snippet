@@ -5,7 +5,7 @@ import Contact from './Pages/Contact';
 import Navbar from './Components/Navbar';
 import { useState, createContext } from 'react';
 
-const AppContext = createContext();
+export const AppContext = createContext();
 
 const RouterApp = () => {
   const [userName, setUserName] = useState("JesTech");
