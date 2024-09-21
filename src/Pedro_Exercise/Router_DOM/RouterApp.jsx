@@ -11,7 +11,7 @@ const RouterApp = () => {
         <Navbar />
         <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/menu' element={<Menu />}/>
+            <Route path='/profile' element={<Profile />}/>
             <Route path='/contact' element={<Contact />} />
             <Route path='*' element={<h1>Oops! PAGE NOT FOUND</h1>} />
         </Routes>
