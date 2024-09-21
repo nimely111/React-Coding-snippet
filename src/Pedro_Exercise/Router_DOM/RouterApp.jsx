@@ -5,13 +5,14 @@ import Contact from './Pages/Contact';
 import Navbar from './Components/Navbar';
 import { useState, createContext } from 'react';
 
+const AppContext = createContext();
+
 const RouterApp = () => {
   const [userName, setUserName] = useState("JesTech");
-  const AppContext = createContext()
 
   return (
     <div>
-      <AppContext.Provider value={userName}>
+      <AppContext.Provider value={{userName, setUserName}}>
         <Router>
           <Navbar />
           <Routes>
@@ -26,4 +27,4 @@ const RouterApp = () => {
   )
 }
 
-export default RouterApp
+export default RouterApp;
