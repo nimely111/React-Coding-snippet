@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { useContext } from 'react'
+import { AppContext } from '../RouterApp'
 
 const ChangeProfile = ({setUserName}) => {
     const [newUserName, setNewUserName] = useState('')
