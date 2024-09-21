@@ -2,15 +2,25 @@ import React, { useState } from 'react'
 
 const ChangeProfile = ({setUserName}) => {
     const [newUserName, setNewUserName] = useState('')
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    }
   return (
     <div>
-      <input 
-      onChange={(e) => setNewUserName(e.target.value)} />
-
-      <button 
-      onClick={() => setUserName(newUserName)}>
-        Change Username
-      </button>
+     <form 
+        onSubmit={handleSubmit}
+        >
+        <input onChange={(e) => {
+            setNewUserName(e.target.value)
+        }}  
+            />
+        <button
+            type='submit' 
+            onClick={() => setUserName(newUserName)}>
+            Change Username
+        </button>
+     </form>
     </div>
   )
 }
