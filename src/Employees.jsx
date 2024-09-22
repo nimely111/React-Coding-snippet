@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Emplooyes() {
+function Employees() {
     const employeesData = [
       {name: 'John Doe', gender: "Male", position: 'Web Developer', isCompleted: true},
       {name: 'Morris Jones', gender: "Male", position: 'Product Manager', isCompleted: false},
@@ -126,4 +126,4 @@ function Emplooyes() {
     )
 }
 
-export default Emplooyes
+export default Employees
