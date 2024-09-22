@@ -3,6 +3,7 @@ import Home from './Pages/Home'
 import Profile from './Pages/Profile';
 import Contact from './Pages/Contact';
 import Navbar from './Components/Navbar';
+import { AppContext } from './Context/AppContext';
 import { useState, createContext } from 'react';
 
 const RouterApp = () => {
