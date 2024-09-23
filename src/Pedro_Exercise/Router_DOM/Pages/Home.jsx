@@ -1,6 +1,6 @@
 import React from 'react'
 import { useContext } from 'react'
-import { AppContext } from '../RouterApp'
+import { AppContext } from '../Context/AppContext'
 
 const Home = () => {
   const { userName } = useContext(AppContext)
