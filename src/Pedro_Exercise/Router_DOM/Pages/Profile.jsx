@@ -1,7 +1,7 @@
 import React from 'react'
 import ChangeProfile from '../Components/ChangeProfile'
 import { useContext } from 'react'
-import { AppContext } from '../RouterApp'
+import { AppContext } from '../Context/AppContext'
 
 const Profile = () => {
     const { userName } = useContext(AppContext)
