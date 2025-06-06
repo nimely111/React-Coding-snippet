@@ -18,7 +18,7 @@ const StateQuizForm = () => {
             await submitForm(answer);
             setStatus('success');
         }catch(err){
-            setStatus('typing');
+            setStatus('typing')
             setError(err);
         }
     }
